@@ -30,7 +30,7 @@ args = parser.parse_args()
 ### ---------------------------------------------------------------------------- ###
 
 #  Load the saved model --> You should probably load your own model here
-saved_model_file = '../xgboost.pkl'
+saved_model_file = '../xgboost_all_data.pkl'
 rf_model = joblib.load(saved_model_file)
 
 # Function that clears the simulated streaming data file so it starts again from time step 0
